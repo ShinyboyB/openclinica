@@ -14,7 +14,7 @@ ENV OC_HOME    $CATALINA_HOME/webapps/OpenClinica
 ENV OC_WS_HOME $CATALINA_HOME/webapps/OpenClinica-ws
 
 #ENV OC_VERSION 3.8
-ENV OC_VERSION 3.13
+ENV OC_VERSION 3.16
 
 RUN ["mkdir", "/tmp/oc"]
 #RUN ["wget", "-q", "--no-check-certificate", "-O/tmp/oc/openclinica.zip", "http://www2.openclinica.com/l/5352/2014-12-22/xpy3t"]
