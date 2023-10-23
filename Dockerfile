@@ -30,7 +30,7 @@ RUN ["wget", "-q", "--no-check-certificate", "-O/tmp/oc/openclinica.zip", "http:
 #OC-WS-3.9.1
 #RUN ["wget", "-q", "--no-check-certificate", "-O/tmp/oc/openclinica-ws.zip", "http://www2.openclinica.com/l/5352/2016-02-12/36krzq"]
 #OC-WS-3.13
-RUN ["wget", "-q", "--no-check-certificate", "-O/tmp/oc/openclinica-ws.zip", "http://www2.openclinica.com/l/5352/2017-03-02/51xd41"]
+RUN ["wget", "-q", "--no-check-certificate", "-O/tmp/oc/openclinica-ws.zip", "https://distros.openclinica.com/OpenSource-3.16/"]
 
 RUN cd /tmp/oc && \
     unzip openclinica.zip && \
